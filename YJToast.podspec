@@ -15,10 +15,10 @@ Pod::Spec.new do |s|
                         description
                        DESC
 
-  s.homepage         = 'https://github.com/1091676312@qq.com/YJToast'
+  s.homepage         = 'https://github.com/yijingKing/YJToast'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '1091676312@qq.com' => '1091676312@qq.com' }
-  s.source           = { :git => 'https://github.com/1091676312@qq.com/YJToast.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/yijingKing/YJToast.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
