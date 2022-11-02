@@ -31,7 +31,7 @@ public class ToastMessageContent: UIView {
     
     func setupUI() {
         
-        backgroundColor = UIColor.init(white: 0, alpha: 0.2)
+        backgroundColor = UIColor.init(white: 0, alpha: 0.4)
         layer.cornerRadius = 8
         clipsToBounds = true
         
@@ -43,12 +43,12 @@ public class ToastMessageContent: UIView {
         }
     }
     
-    lazy var msgLab: UILabel = {
+    public lazy var msgLab: UILabel = {
         let tmp = UILabel()
         tmp.numberOfLines = 0
         tmp.textAlignment = .center
         tmp.textColor = UIColor.black
-        tmp.font = UIFont.systemFont(ofSize: 12)
+        tmp.font = UIFont.systemFont(ofSize: 17)
         tmp.text = message
         return tmp
     }()

@@ -47,7 +47,7 @@ public class ToastImageContent: UIView {
     }
     
     
-    lazy var imgView: UIImageView = {
+    public lazy var imgView: UIImageView = {
         let tmp = UIImageView()
         tmp.contentMode = .scaleAspectFit
         tmp.image = image
